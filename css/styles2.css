@@ -1,0 +1,85 @@
+.carousel .carousel-indicators li {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   
+ }
+ 
+.carousel .carousel-indicators .active{
+   background-color: #187BC1
+    
+}
+
+img { 
+   max-width:100%; 
+   height:auto;
+} 
+.banner-container {
+    width: 100%;
+}
+
+.banner-container > div {
+   display: inline-block;
+}
+
+
+
+
+.logo {
+   width: 55%;
+}
+
+.button {
+   width: 40%;
+   display: inline-block;
+   padding-left: 40px;
+   position: relative;
+   top: 5px;
+   text-align: center;
+
+}
+.button a,
+.button a:hover {
+   color: #ffffff;
+}
+
+.click {
+   background-color: #187BC1;
+   color: #ffffff;
+   font-family: 'Kanit', sans-serif;
+   font-size : 14px;
+   font-weight: 300;
+   
+   width: 154px;
+   height: 42px;
+   border: none;
+   -webkit-box-shadow: 0px 5px 10px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 10px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 10px -8px rgba(0,0,0,0.75);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   .logo {
+      width: 100%;
+   }
+   .company-name {
+      width: 100%;
+      padding: 10px 30px;
+      text-align: center;
+   }
+   .button {
+      width: 100%;
+      padding-top: 40px;
+      text-align: center;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {}
